@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="./favicon_io/android-chrome-512x512.png" sizes="64x64">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="settings.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>StashSmart - Settings</title>
+</head>
+
+<body>
+    <!-- Settings Navigation -->
+    <nav>
+      <div class="navbar">
+        <a href="#" class="logo"
+          ><i class="fas fa-chart-line"></i> StashSmart</a
+        >
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="./Finance-Dashboard/dashboard.html">Dashboard</a></li>
+          <li><a href="#tracker">Use Tracker</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="./support.html">Support</a></li>
+          <li><a href="./settings.html">Settings</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="./login.html" class="btn-head"
+            ><i class="fas fa-sign-in-alt"></i> Log In</a
+          >
+          <a href="./sign-up.html" class="btn-head"
+            ><i class="fas fa-user-plus"></i> Sign Up</a>
+        </div>
+      </div>
+  </nav>
+
+  <section class="settings-container">
+    <h1>Settings</h1>
+    <div class="settings-content">
+      <div class="settings-section">
+        <h2>Account Settings</h2>
+        <div class="settings-item">
+          <label for="username">Username:</label>
+          <input type="text" id="username" value="JohnDoe" disabled>
+          <button class="edit-btn"><i data-feather="edit-3"></i> Edit</button>
+        </div>
+        <div class="settings-item">
+          <label for="email">Email:</label>
+          <input type="email" id="email" value="johndoe@example.com" disabled>
+          <button class="edit-btn"><i data-feather="edit-3"></i> Edit</button>
+        </div>
+        <div class="settings-item">
+          <label for="password">Password:</label>
+          <input type="password" id="password" value="********" disabled>
+          <button class="edit-btn"><i data-feather="edit-3"></i> Edit</button>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h2>Notification Settings</h2>
+        <div class="settings-item">
+          <label for="email-notifications">Email Notifications:</label>
+          <div class="toggle-switch">
+            <input type="checkbox" id="email-notifications" checked>
+            <label for="email-notifications"></label>
+          </div>
+        </div>
+        <div class="settings-item">
+          <label for="push-notifications">Push Notifications:</label>
+          <div class="toggle-switch">
+            <input type="checkbox" id="push-notifications" checked>
+            <label for="push-notifications"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h2>Linked Accounts</h2>
+        <div class="settings-item">
+          <label for="bank-account">Bank Account:</label>
+          <input type="text" id="bank-account" value="1234567890" disabled>
+          <button class="edit-btn"><i data-feather="edit-3"></i> Edit</button>
+        </div>
+        <div class="settings-item">
+          <label for="credit-card">Credit Card:</label>
+          <input type="text" id="credit-card" value="1234 5678 9012 3456" disabled>
+          <button class="edit-btn"><i data-feather="edit-3"></i> Edit</button>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h2>Appearance</h2>
+        <div class="settings-item">
+          <label for="theme">Theme:</label>
+          <select id="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="settings-section">
+        <h2>Danger Zone</h2>
+        <div class="settings-item">
+          <button class="delete-account-btn">Delete Account</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <p>Copyright &copy; 2024 StashSmart. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Icon Replacement Script -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+    <!-- Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/your-font-awesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
