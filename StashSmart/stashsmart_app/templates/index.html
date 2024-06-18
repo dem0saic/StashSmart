@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +10,7 @@
       sizes="64x64"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css"
@@ -73,11 +74,11 @@
         </div>
         <div class="under-welcome-image">
           <!-- Image for Landing Page -->
-          <img src="./assets/makeme.png" alt="Tracking Finances" />
+          <img src="{% static './assets/makeme.png' %}" alt="Tracking Finances" />
         </div>
       </div>
     </section>
-
+    
     <!-- Scroll Down Arrow -->
     <br />
     <div class="arrow">
@@ -222,7 +223,7 @@
         <div class="right-working-image">
           <!-- Image for How it Works -->
           <img
-            src="./assets/how-it-works.png"
+            src="{% static './assets/how-it-works.png' %}"
             target="_self"
             alt="Tracking Finances"
           />
@@ -254,14 +255,14 @@
     ></script>
 
     <!-- Custom Scripts -->
-    <script src="script.js"></script>
-    <script src="chart1.js"></script>
-    <script src="chart2.js"></script>
+    <script src="{% static 'script.js' %}"></script>
+    <script src="{% static 'chart1.js' %}"></script>
+    <script src="{% static 'chart2.js' %}"></script>
 
     <!-- Font Awesome Kit -->
     <script
-      src="https://kit.fontawesome.com/your-font-awesome-kit.js"
+      src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
       crossorigin="anonymous"
-    ></script>
+    </script>
   </body>
 </html>
