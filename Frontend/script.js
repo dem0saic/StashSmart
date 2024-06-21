@@ -402,26 +402,5 @@ function exportToCSV() {
   link.click();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  // Function to handle the click event on the update chart button
-  const updateChartButton = document.getElementById("update-chart-btn");
-  if (updateChartButton) {
-    updateChartButton.addEventListener("click", () => {
-      // Add code here to update the chart
-      console.log("Update chart button clicked");
-      // You can add your chart update logic here
-    });
-  }
-
-  // Function to handle the click event on the download chart button
-  const downloadChartButton = document.getElementById("download-chart-btn");
-  if (downloadChartButton) {
-    downloadChartButton.addEventListener("click", () => {
-      // Add code here to download the chart
-      console.log("Download chart button clicked");
-      // You can add your chart download logic here
-    });
-  }
-});
 
 // Settings page functionality

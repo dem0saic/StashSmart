@@ -68,7 +68,7 @@ nav {
 .nav-links {
   display: flex;
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 290px;
   /* border: 2px solid yellow; */
 }
 
@@ -119,8 +119,7 @@ nav {
 
 .btn-head:hover {
   transition: all 0.3s ease 0s;
-  color: #092475;
-  background-color: #fff;
+  color: #092475; /* Changed from orangered to a catalina blue */
   cursor: pointer;
 }
 
@@ -221,9 +220,8 @@ nav {
 }
 
 .under-welcome-btn:hover {
-  background-color: rgb(199, 196, 218); /* Changed from rgb(255, 0, 0) to rgb(255, 0, 0) */
+  background-color: rgb(113, 99, 186); /* Changed from rgb(255, 0, 0) to rgb(255, 0, 0) */
   color: #0b0081;
-  border:2px #0b0081;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -638,7 +636,6 @@ td:last-child {
 
 .sign-up-button-btn:hover {
   color: #092475;
-  background-color: #b4bcd3;
   transform: translate(0, -2px);
 }
 
