@@ -10,9 +10,8 @@ StashSmart is a web-based personal finance tracker designed to empower users wit
 * Signup Page: Enables new users to create accounts.
 * Home Page: Displays a personalized overview of financial information.
 * Dashboard Page: The central hub for viewing all financial information at a glance.
-* Use Tracker Page: Allows users to enter income and expense transactions efficiently.
+* Transaction Tracker Page: Allows users to enter income and expense transactions efficiently.
 * How It Works Page: Provides a clear and concise explanation of the app's features and functionalities.
-* Data Visualization for Spending Analytics:  Interactive charts and graphs to help users understand and analyze their spending habits.
 * Customizable currency settings:  Users set their preferred display currency (e.g., USD, EUR, GHS).
 * Support Page: Offers resources and assistance to users for any queries or issues they may encounter.
 * Settings Page: Enables users to manage preferences such as notifications, account linking, and other custom settings.
