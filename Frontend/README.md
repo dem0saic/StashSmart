@@ -3,6 +3,7 @@
 StashSmart is a web-based personal finance tracker designed to empower users with control over their financial well-being.  It provides a user-friendly interface for effortless management of income, expenses, and savings. This empowers users to set financial goals, categorize transactions, and gain valuable insights into their spending habits through detailed reports and analytics. 
 
 ![Personal-Finance-Tracker](sc-finished-product.png)
+![Personal-Finance-Tracker](sc1-finished-product.png)
 
 ## Features:
 
