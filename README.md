@@ -13,19 +13,19 @@
   </a>
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
   <strong>Project Blog Article</strong><br>
   <a href="https://github.com/hardope">Read our blog post about StashSmart</a>
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
-  <strong>Connect with the Authors</strong><br><br>
-  <a href="https://www.linkedin.com/in/opokumensahpeter/">Peter Opoku-Mensah</a> - Project Lead & Full-Stack Developer<br><br>
-  <a href="https://www.linkedin.com/in/frederick-napey-85426a287/">Frederick Napey</a> - Frontend Developer<br><br>
+  <strong>Connect with the Authors</strong><br>
+  <a href="https://www.linkedin.com/in/opokumensahpeter/">Peter Opoku-Mensah</a> - Project Lead & Full-Stack Developer<br>
+  <a href="https://www.linkedin.com/in/frederick-napey-85426a287/">Frederick Napey</a> - Frontend Developer<br>
   <a href="https://www.linkedin.com/in/owusuvincent/">Owusu Vincent</a> - Project Contributor
 </div>
 
