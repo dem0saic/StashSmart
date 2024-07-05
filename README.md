@@ -7,8 +7,8 @@
 ## 🔗 Links
 
 <div align="center">
+  <strong>Live Website</strong><br>
   <a href="https://deezyfg.github.io/StashSmart/">
-    <strong>Live Website</strong><br>
     <img src="https://i.postimg.cc/0Qz8hDKf/live-icon.png" alt="Live Website" style="margin-top: 10px;">
   </a>
 </div>
