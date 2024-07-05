@@ -6,12 +6,10 @@
 
 ## 🔗 Links
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <a href="https://deezyfg.github.io/StashSmart/" style="text-decoration: none; color: inherit;">
-    <strong>Live Website</strong>
-  </a>
+<div align="center">
   <a href="https://deezyfg.github.io/StashSmart/">
-    <img src="https://i.postimg.cc/0Qz8hDKf/live-icon.png" alt="Live Website" style="vertical-align: middle;">
+    <strong>Live Website</strong><br>
+    <img src="https://i.postimg.cc/0Qz8hDKf/live-icon.png" alt="Live Website" style="margin-top: 10px;">
   </a>
 </div>
 
