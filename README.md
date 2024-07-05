@@ -6,6 +6,8 @@
 
 ## 🔗 Links
 
+## 🔗 Links
+
 <div align="center">
   <strong>Live Website</strong><br>
   <a href="https://deezyfg.github.io/StashSmart/">
@@ -13,13 +15,17 @@
   </a>
 </div>
 
-* **Project Blog Article:**
-[Read our blog post about StashSmart]()
+<div align="center" style="margin-top: 20px;">
+  <strong>Project Blog Article</strong><br>
+  <a href="https://github.com/deezyfg">Read our blog post about StashSmart</a>
+</div>
 
-* **Connect with the Authors:** 
-  - [Peter Opoku-Mensah](https://www.linkedin.com/in/opokumensahpeter/) - **Project Lead & Full-Stack Developer**
-  - [Frederick Napey](https://www.linkedin.com/in/frederick-napey-85426a287/) - **Frontend Developer**
-  - [Owusu Vincent](https://www.linkedin.com/in/owusuvincent/) - **Project Contributor**
+<div align="center" style="margin-top: 20px;">
+  <strong>Connect with the Authors</strong><br>
+  <a href="https://www.linkedin.com/in/opokumensahpeter/">Peter Opoku-Mensah</a> - Project Lead & Full-Stack Developer<br>
+  <a href="https://www.linkedin.com/in/frederick-napey-85426a287/">Frederick Napey</a> - Frontend Developer<br>
+  <a href="https://www.linkedin.com/in/owusuvincent/">Owusu Vincent</a> - Project Contributor
+</div>
 
 ## 📸 Screenshots
 
