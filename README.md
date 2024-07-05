@@ -6,8 +6,15 @@
 
 ## 🔗 Links
 
-* **Live Website:** [![Live Website](https://i.postimg.cc/d11N1jpJ/live-icon.png)](https://deezyfg.github.io/StashSmart/)
-* **Project Blog Article:** [Read our blog post about StashSmart]()
+<div align="center">
+  <a href="https://deezyfg.github.io/StashSmart/">
+    Live Website: <img src="https://i.postimg.cc/0Qz8hDKf/live-icon.png" alt="Live Website" style="vertical-align: middle;">
+  </a>
+</div>
+
+* **Project Blog Article:**
+[Read our blog post about StashSmart]()
+
 * **Connect with the Authors:** 
   - [Peter Opoku-Mensah](https://www.linkedin.com/in/opokumensahpeter/) - **Project Lead & Full-Stack Developer**
   - [Frederick Napey](https://www.linkedin.com/in/frederick-napey-85426a287/) - **Frontend Developer**
