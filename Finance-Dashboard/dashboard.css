@@ -1,6 +1,7 @@
 /* Import Google Font cdn link */
 @import url("https:/fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +11,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Body setup */
 body {
     display: flex;
 }
 
+/* Sidebar styles */
 .sidebar {
     position: sticky;
     top: 0;
@@ -81,7 +84,7 @@ body {
     width: 100%;
 }
 
-/* **** main body section **** */
+/* Main content section */
 .main--content {
     position: relative;
     background: #ebe9e9;
@@ -89,6 +92,7 @@ body {
     padding: 1rem;
 }
 
+/* Header wrapper */
 .header--wrapper img {
     width: 50px;
     height: 50px;
@@ -112,24 +116,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem; /* Adjust the gap between elements as needed */
+    gap: 1rem;
 }
 
 .header--title span {
-    font-size: 1.5rem; /* Increase the font size for "Primary" */
+    font-size: 1.5rem;
 }
 
 .header--title h2 {
-    font-size: 2rem; /* Adjust the font size as needed */
-    font-weight: bold; /* Add font weight if desired */
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .header--title input[type="date"] {
-    margin-left: 1rem; /* Adjust the margin as needed */
-    padding: 0.5rem; /* Adjust the padding as needed */
-    border: 1px solid #ccc; /* Adjust the border style as needed */
-    border-radius: 0.25rem; /* Adjust the border radius as needed */
-    font-size: 1rem; /* Adjust the font size as needed */
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
 }
 
 .user--info {
@@ -209,6 +213,7 @@ body {
     background-color: #232323;
 }
 
+/* Search box */
 .search--box {
     background: rgba(237, 237, 237);
     border-radius: 15px;
@@ -310,7 +315,7 @@ body {
     font-family: "Courier New", Courier, monospace;
 }
 
-/* color css */
+/* Color styles */
 .light--red {
     background: rgb(251, 233, 233);
 }
@@ -343,7 +348,7 @@ body {
     background: blue;
 }
 
-/* ***** tabular ***** section */
+/* Tabular section */
 .tabular--wrapper {
     background: #fff;
     margin-top: 1rem;
@@ -402,8 +407,8 @@ tfoot td {
 }
 
 .show-all-link {
-    font-size: 1rem; /* Reduced font size */
-    color: #0375ff; /* Highlighted blue color */
+    font-size: 1rem;
+    color: #0375ff;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -411,5 +416,31 @@ tfoot td {
 }
 
 .show-all-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #0056b3;
+}
+
+/* Adjust chart container styles */
+.chart-container {
+    margin-top: 20px;
+}
+
+.chart-container canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100px; /* Adjust sidebar width for smaller screens */
+        padding: 0 0.7rem; /* Adjust padding for smaller screens */
+    }
+
+    .sidebar:hover {
+        width: 220px; /* Adjust expanded sidebar width for smaller screens */
+    }
+
+    .chart-container {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
 }
