@@ -17,7 +17,7 @@
 
 <div align="center">
   <strong>Project Blog Article</strong><br>
-  <a href="https://github.com/hardope">Read our blog post about StashSmart</a>
+  <a href="https://www.linkedin.com/pulse/stashsmart-transforming-personal-finance-management-opoku-mensah-uwhye">Read our blog post about StashSmart</a>
 </div>
 
 <br>

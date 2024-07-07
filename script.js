@@ -401,6 +401,3 @@ function exportToCSV() {
   link.download = "transactions.csv";
   link.click();
 }
-
-
-// Settings page functionality
